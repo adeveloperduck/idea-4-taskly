@@ -56,7 +56,7 @@ struct currentReminders: View {
                                 .onTapGesture {
                                     reminder.isComplete.toggle()
                                     let id = reminder.id
-                                    DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                                    DispatchQueue.main.asyncAfter(deadline: .now() + Double(settingsVariables.timeUntilTaskDeleted)) {
                                         withAnimation {
                                             reminders.removeAll { $0.id == id }
                                         }

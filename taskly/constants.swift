@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct settingsVariables {
+    static var timeUntilTaskDeleted: Int = 5
+}
