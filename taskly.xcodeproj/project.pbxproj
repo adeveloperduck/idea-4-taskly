@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		02140B1F2F650C2B00A9A58D /* idea 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "idea 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02140B1F2F650C2B00A9A58D /* taskly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taskly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		02140B212F650C2B00A9A58D /* idea 4 */ = {
+		02140B212F650C2B00A9A58D /* taskly */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "idea 4";
+			path = taskly;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		02140B162F650C2B00A9A58D = {
 			isa = PBXGroup;
 			children = (
-				02140B212F650C2B00A9A58D /* idea 4 */,
+				02140B212F650C2B00A9A58D /* taskly */,
 				02140B202F650C2B00A9A58D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		02140B202F650C2B00A9A58D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				02140B1F2F650C2B00A9A58D /* idea 4.app */,
+				02140B1F2F650C2B00A9A58D /* taskly.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		02140B1E2F650C2B00A9A58D /* idea 4 */ = {
+		02140B1E2F650C2B00A9A58D /* taskly */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 02140B2A2F650C2C00A9A58D /* Build configuration list for PBXNativeTarget "idea 4" */;
+			buildConfigurationList = 02140B2A2F650C2C00A9A58D /* Build configuration list for PBXNativeTarget "taskly" */;
 			buildPhases = (
 				02140B1B2F650C2B00A9A58D /* Sources */,
 				02140B1C2F650C2B00A9A58D /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				02140B212F650C2B00A9A58D /* idea 4 */,
+				02140B212F650C2B00A9A58D /* taskly */,
 			);
-			name = "idea 4";
+			name = taskly;
 			packageProductDependencies = (
 			);
 			productName = "idea 4";
-			productReference = 02140B1F2F650C2B00A9A58D /* idea 4.app */;
+			productReference = 02140B1F2F650C2B00A9A58D /* taskly.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 02140B1A2F650C2B00A9A58D /* Build configuration list for PBXProject "idea 4" */;
+			buildConfigurationList = 02140B1A2F650C2B00A9A58D /* Build configuration list for PBXProject "taskly" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				02140B1E2F650C2B00A9A58D /* idea 4 */,
+				02140B1E2F650C2B00A9A58D /* taskly */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		02140B1A2F650C2B00A9A58D /* Build configuration list for PBXProject "idea 4" */ = {
+		02140B1A2F650C2B00A9A58D /* Build configuration list for PBXProject "taskly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02140B282F650C2C00A9A58D /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		02140B2A2F650C2C00A9A58D /* Build configuration list for PBXNativeTarget "idea 4" */ = {
+		02140B2A2F650C2C00A9A58D /* Build configuration list for PBXNativeTarget "taskly" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				02140B2B2F650C2C00A9A58D /* Debug */,

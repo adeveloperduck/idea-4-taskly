@@ -34,7 +34,7 @@ struct currentReminders: View {
                     Image(systemName: "lightbulb")
                         .resizable()
                         .scaledToFit()
-                        .frame(width: 200, height: 200, alignment: .center)
+                        .frame(width: 100, height: 100, alignment: .center)
                         .foregroundStyle(.gray)
                         .padding()
                 }
