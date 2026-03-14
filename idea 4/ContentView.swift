@@ -14,12 +14,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("Tasks", systemImage: "list.bullet")
                 }
-
-            newReminder()
-                .tabItem {
-                    Label("New Task", systemImage: "plus")
-                }
-
+            
             settings()
                 .tabItem {
                     Label("Settings", systemImage: "gearshape")
