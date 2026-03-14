@@ -61,8 +61,11 @@ struct currentReminders: View {
                                             reminders.removeAll { $0.id == id }
                                         }
                                     }
+                                
                                 }
                         }
+                            
+                        
                         if reminder.isComplete {
                             Text(reminder.title)
                                 .foregroundStyle(Color.gray)
@@ -72,7 +75,11 @@ struct currentReminders: View {
                                 .transition(.opacity)
                         }
                     }
+                    .listRowSeparator(.hidden)
+                    .padding()
                 }
+                
+                
             }
         }
         .navigationTitle("Tasks")
